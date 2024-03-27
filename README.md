@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CloneX - Twitter Clone
 
-## Getting Started
+CloneX is a Twitter clone application developed using TypeScript for the backend and MongoDB Atlas for database management. It replicates core features of Twitter, including user authentication, tweet posting, following/unfollowing users, and real-time updates using WebSocket technology. The application is designed to provide users with a familiar and intuitive platform for microblogging and social networking.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Deployment](#deployment)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **User Authentication:** Secure access to user accounts with authentication system.
+- **Tweet Posting:** Ability to post tweets.
+- **Following/Unfollowing:** Follow and unfollow other users to customize feed.
+- **Real-time Updates:** WebSocket technology for instant notifications and feed updates.
+- **Responsive Design:** Optimal user experience across devices with a responsive UI.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- TypeScript
+- MongoDB Atlas
+- Node.js
+- Express.js
+- WebSocket
+- HTML/CSS
 
-## Learn More
+## Setup Instructions
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/Dhwanil03/CloneX.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Install dependencies:
 
-## Deploy on Vercel
+   ```bash
+   cd CloneX
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Configure environment variables:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   - Create a `.env` file in the root directory.
+   - Add environment variables such as database connection URI, JWT secret, etc.
+
+4. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+1. Register for a new account or log in with existing credentials.
+2. Explore the various features such as posting tweets, following/unfollowing users, and receiving real-time updates.
+3. Customize your profile and settings to personalize your experience.
+
+## Deployment
+CloneX has been [deployed](https://clonex-gamma.vercel.app/) using Vercel. 
+
+---
+
+
